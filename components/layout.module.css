@@ -1,0 +1,32 @@
+
+.container {
+  max-width: 56rem;
+  padding: 0 5rem;
+  margin: 1rem auto ; 
+}
+@media(max-width: 560px ) {
+  .container{
+    padding: 0
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerMenu {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.headerHomeImage {
+  width: 8rem;
+  height: 8rem;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
